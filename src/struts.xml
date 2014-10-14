@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<package name = "apple" extends="struts-default">
+		
+		<action name="searchBook" class = "Submit" method = "searchBook">
+		<result name="success">searchResult.jsp</result>
+		<result name="failed">searchFailed.jsp</result>
+		</action>
+		
+		<action name="searchAuthor" class="Submit" method ="searchAuthor">
+		<result name="success">searchAuthorResult.jsp</result>
+		<result name="failed">searchFailed.jsp</result>
+		</action>
+		
+		<action name="listBook" class="Submit" method ="listBook">
+		<result name="success">BookList.jsp</result>
+		<result name="failed">searchFailed.jsp</result>
+		</action>
+		
+		<action name="delete" class="Submit" method="deleteBook">
+		<result name="success">SuccessfulDelete.jsp</result>
+		</action>
+		
+		<action name="addBook" class="Submit" method="addBook">
+		<result name="success">SuccessfulAdded.jsp</result>
+		</action>
+		
+		<action name="renewBook" class="Submit" method="renewBook">
+		<result name="success">SuccessfulUpdated.jsp</result>
+		</action>
+		
+		<action name="addAuthor" class="Submit" method="addAuthor">
+		<result name="success">SuccessfulAddedAuthor.jsp</result>
+		</action>
+	</package>
+</struts>    
