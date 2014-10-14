@@ -21,7 +21,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   </head>
   
   <body>
-    <h3 align="center" > 添加图书  </h3>
+    <h2 align="center" > 添加图书  </h2>
     <center>
     <form action="addBook.action" method="post">
     	书名：<input type="text"  name="addtitle"><p></p>

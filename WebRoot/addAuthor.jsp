@@ -21,7 +21,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   </head>
   
   <body>
-  <h2 align="center"> 添加作者  </h2>
+  <h3 align="center"> 添加作者  </h3>
   <center>
     <form action="addAuthor.action" method="post">
     	姓名:  <input type="text" name="addauthorname"/><p></p>
