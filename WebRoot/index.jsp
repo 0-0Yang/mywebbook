@@ -18,7 +18,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   </head>
 
   <body>
-    <h2 align="center">Web图书管理系统</h2>
+    <h3 align="center">Web图书管理系统</h3>
     <center>
 	<form action="searchBook.action" method="post">
 		 查询图书：<input name="searchBookName" type="text" />

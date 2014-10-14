@@ -22,7 +22,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   <s:iterator value="BookList" id="b">
      <table width="100%">
      <tr>
-    	<td width="40%">书目 :  <s:property value="b"/></td>
+    	<td width="40%">书目:  <s:property value="b"/></td>
     	<td width="30%"><form action="searchBook.action" method="post">
     		<input name=searchBookName value="${b}" type="hidden"/>
     		<input type="submit" value="全部信息"/>
